@@ -27,7 +27,7 @@
 
 ---------------  S U M M A R Y ------------
 
-Command Line: -javaagent:D:\IntelliJ IDEA 2023.1.4\lib\idea_rt.jar=52458:D:\IntelliJ IDEA 2023.1.4\bin -Dfile.encoding=UTF-8 BuilderPattern.Main
+Command Line: -javaagent:D:\IntelliJ IDEA 2023.1.4\lib\idea_rt.jar=52458:D:\IntelliJ IDEA 2023.1.4\bin -Dfile.encoding=UTF-8 BuilderPattern.Iterator.Main
 
 Host: AMD Ryzen 7 7735H with Radeon Graphics        , 16 cores, 15G,  Windows 11 , 64 bit Build 22621 (10.0.22621.1928)
 Time: Fri Aug  4 23:28:53 2023  Windows 11 , 64 bit Build 22621 (10.0.22621.1928) elapsed time: 0.024421 seconds (0d 0h 0m 0s)
@@ -72,7 +72,7 @@ Java Threads: ( => current thread )
 
 Other Threads:
   0x000001e1315f3050 GCTaskThread "GC Thread#0" [stack: 0x00000043fb000000,0x00000043fb100000] [id=71748]
-  0x000001e1316034f0 ConcurrentGCThread "G1 Main Marker" [stack: 0x00000043fb100000,0x00000043fb200000] [id=73308]
+  0x000001e1316034f0 ConcurrentGCThread "G1 Iterator.Main Marker" [stack: 0x00000043fb100000,0x00000043fb200000] [id=73308]
   0x000001e1316075c0 ConcurrentGCThread "G1 Conc#0" [stack: 0x00000043fb200000,0x00000043fb300000] [id=28132]
 
 [error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffedf34a697]
@@ -160,7 +160,7 @@ symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;D:\jd
 
 VM Arguments:
 jvm_args: -javaagent:D:\IntelliJ IDEA 2023.1.4\lib\idea_rt.jar=52458:D:\IntelliJ IDEA 2023.1.4\bin -Dfile.encoding=UTF-8 
-java_command: BuilderPattern.Main
+java_command: BuilderPattern.Iterator.Main
 java_class_path (initial): C:\Users\init\IdeaProjects\DesignPattern\target\classes
 Launcher Type: SUN_STANDARD
 

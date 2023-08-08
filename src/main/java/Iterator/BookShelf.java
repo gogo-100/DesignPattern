@@ -1,4 +1,4 @@
-package space.gogosan.IteratorPattern;
+package Iterator;
 
 import java.util.ArrayList;
 

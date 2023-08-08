@@ -1,4 +1,4 @@
-package space.gogosan.IteratorPattern;
+package Iterator;
 
 public class Book {
     private String name;

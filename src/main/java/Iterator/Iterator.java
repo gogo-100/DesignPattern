@@ -1,4 +1,4 @@
-package space.gogosan.IteratorPattern;
+package Iterator;
 
 public interface Iterator {
     public abstract boolean hasNext();
