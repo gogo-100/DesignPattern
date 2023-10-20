@@ -1,3 +1,5 @@
+package Strategy;
+
 public class Hand {
     public static final int HANDVALUE_GUU = 0;  // 表示石头的值
     public static final int HANDVALUE_CHO = 1;  // 表示剪刀的值

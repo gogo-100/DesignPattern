@@ -1,3 +1,5 @@
+package Strategy;
+
 public class Player {
     private String name;
     private Strategy strategy;

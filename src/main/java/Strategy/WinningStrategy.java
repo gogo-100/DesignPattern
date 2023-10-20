@@ -1,3 +1,4 @@
+package Strategy;
 import java.util.Random;
 
 public class WinningStrategy implements Strategy {
