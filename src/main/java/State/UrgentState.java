@@ -1,0 +1,25 @@
+package State;
+
+public class UrgentState implements State {
+    private static UrgentState singleton = new UrgentState();
+    private UrgentState() {                                // 构造函数的可见性是private
+    }
+    public static State getInstance() {                 // 获取唯一实例
+        return singleton;
+    }
+    public void doClock(Context context, int hour) {    // 设置时间
+
+    }
+    public void doUse(Context context) {                // 使用金库
+        context.callSecurityCenter("紧急：紧急情况！");
+    }
+    public void doAlarm(Context context) {              // 按下警铃
+        context.callSecurityCenter("按下警铃(紧急情况)");
+    }
+    public void doPhone(Context context) {              // 正常通话
+        context.recordLog("紧急情况的通话录音");
+    }
+    public String toString() {                          // 显示表示类的文字
+        return "[紧急情况]";
+    }
+}
